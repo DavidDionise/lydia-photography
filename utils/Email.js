@@ -49,6 +49,8 @@ class Email {
 			    <h2>Message From ${this.name} :</h2>
 			    <hr />
 			    <p>${this.message}</p>
+					<hr />
+					<p>Reply to ${this.email_address}</p>
 			  </body>
 			</html>`
 		)
